@@ -341,7 +341,7 @@ class MainActivity : AppCompatActivity() {
             return if (showAll) {
                 ItemTouchHelper.LEFT or ItemTouchHelper.RIGHT
             } else {
-                ItemTouchHelper.LEFT
+                0
             }
         }
 
